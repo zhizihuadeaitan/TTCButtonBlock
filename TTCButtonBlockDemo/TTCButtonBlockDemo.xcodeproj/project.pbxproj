@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37B10ED01FA06DED0010989F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10ECF1FA06DED0010989F /* AppDelegate.m */; };
+		37B10ED31FA06DED0010989F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10ED21FA06DED0010989F /* ViewController.m */; };
+		37B10ED61FA06DED0010989F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B10ED41FA06DED0010989F /* Main.storyboard */; };
+		37B10ED81FA06DED0010989F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37B10ED71FA06DED0010989F /* Assets.xcassets */; };
+		37B10EDB1FA06DED0010989F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37B10ED91FA06DED0010989F /* LaunchScreen.storyboard */; };
+		37B10EDE1FA06DED0010989F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EDD1FA06DED0010989F /* main.m */; };
+		37B10EE81FA06DED0010989F /* TTCButtonBlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EE71FA06DED0010989F /* TTCButtonBlockDemoTests.m */; };
+		37B10EF31FA06DEE0010989F /* TTCButtonBlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EF21FA06DEE0010989F /* TTCButtonBlockDemoUITests.m */; };
+		37B10F061FA06EDC0010989F /* UIButton+TTCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37B10EE41FA06DED0010989F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B10EC31FA06DED0010989F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B10ECA1FA06DED0010989F;
+			remoteInfo = TTCButtonBlockDemo;
+		};
+		37B10EEF1FA06DED0010989F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37B10EC31FA06DED0010989F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37B10ECA1FA06DED0010989F;
+			remoteInfo = TTCButtonBlockDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37B10ECB1FA06DED0010989F /* TTCButtonBlockDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCButtonBlockDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B10ECE1FA06DED0010989F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37B10ECF1FA06DED0010989F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37B10ED11FA06DED0010989F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37B10ED21FA06DED0010989F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37B10ED51FA06DED0010989F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37B10ED71FA06DED0010989F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37B10EDA1FA06DED0010989F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37B10EDC1FA06DED0010989F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B10EDD1FA06DED0010989F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37B10EE31FA06DED0010989F /* TTCButtonBlockDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCButtonBlockDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B10EE71FA06DED0010989F /* TTCButtonBlockDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCButtonBlockDemoTests.m; sourceTree = "<group>"; };
+		37B10EE91FA06DED0010989F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B10EEE1FA06DED0010989F /* TTCButtonBlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCButtonBlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B10EF21FA06DEE0010989F /* TTCButtonBlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCButtonBlockDemoUITests.m; sourceTree = "<group>"; };
+		37B10EF41FA06DEE0010989F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37B10F041FA06EDC0010989F /* UIButton+TTCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TTCBlock.h"; sourceTree = "<group>"; };
+		37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TTCBlock.m"; sourceTree = "<group>"; };
+		37B10F081FA06F880010989F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37B10EC81FA06DED0010989F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EE01FA06DED0010989F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EEB1FA06DED0010989F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37B10EC21FA06DED0010989F = {
+			isa = PBXGroup;
+			children = (
+				37B10ECD1FA06DED0010989F /* TTCButtonBlockDemo */,
+				37B10EE61FA06DED0010989F /* TTCButtonBlockDemoTests */,
+				37B10EF11FA06DEE0010989F /* TTCButtonBlockDemoUITests */,
+				37B10ECC1FA06DED0010989F /* Products */,
+				37B10F071FA06F880010989F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		37B10ECC1FA06DED0010989F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37B10ECB1FA06DED0010989F /* TTCButtonBlockDemo.app */,
+				37B10EE31FA06DED0010989F /* TTCButtonBlockDemoTests.xctest */,
+				37B10EEE1FA06DED0010989F /* TTCButtonBlockDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37B10ECD1FA06DED0010989F /* TTCButtonBlockDemo */ = {
+			isa = PBXGroup;
+			children = (
+				37B10F031FA06EDC0010989F /* TTCButtonBlock */,
+				37B10ECE1FA06DED0010989F /* AppDelegate.h */,
+				37B10ECF1FA06DED0010989F /* AppDelegate.m */,
+				37B10ED11FA06DED0010989F /* ViewController.h */,
+				37B10ED21FA06DED0010989F /* ViewController.m */,
+				37B10ED41FA06DED0010989F /* Main.storyboard */,
+				37B10ED71FA06DED0010989F /* Assets.xcassets */,
+				37B10ED91FA06DED0010989F /* LaunchScreen.storyboard */,
+				37B10EDC1FA06DED0010989F /* Info.plist */,
+				37B10EDD1FA06DED0010989F /* main.m */,
+			);
+			path = TTCButtonBlockDemo;
+			sourceTree = "<group>";
+		};
+		37B10EE61FA06DED0010989F /* TTCButtonBlockDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				37B10EE71FA06DED0010989F /* TTCButtonBlockDemoTests.m */,
+				37B10EE91FA06DED0010989F /* Info.plist */,
+			);
+			path = TTCButtonBlockDemoTests;
+			sourceTree = "<group>";
+		};
+		37B10EF11FA06DEE0010989F /* TTCButtonBlockDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				37B10EF21FA06DEE0010989F /* TTCButtonBlockDemoUITests.m */,
+				37B10EF41FA06DEE0010989F /* Info.plist */,
+			);
+			path = TTCButtonBlockDemoUITests;
+			sourceTree = "<group>";
+		};
+		37B10F031FA06EDC0010989F /* TTCButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				37B10F041FA06EDC0010989F /* UIButton+TTCBlock.h */,
+				37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */,
+			);
+			path = TTCButtonBlock;
+			sourceTree = "<group>";
+		};
+		37B10F071FA06F880010989F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37B10F081FA06F880010989F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37B10ECA1FA06DED0010989F /* TTCButtonBlockDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B10EF71FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemo" */;
+			buildPhases = (
+				37B10EC71FA06DED0010989F /* Sources */,
+				37B10EC81FA06DED0010989F /* Frameworks */,
+				37B10EC91FA06DED0010989F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTCButtonBlockDemo;
+			productName = TTCButtonBlockDemo;
+			productReference = 37B10ECB1FA06DED0010989F /* TTCButtonBlockDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37B10EE21FA06DED0010989F /* TTCButtonBlockDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B10EFA1FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemoTests" */;
+			buildPhases = (
+				37B10EDF1FA06DED0010989F /* Sources */,
+				37B10EE01FA06DED0010989F /* Frameworks */,
+				37B10EE11FA06DED0010989F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B10EE51FA06DED0010989F /* PBXTargetDependency */,
+			);
+			name = TTCButtonBlockDemoTests;
+			productName = TTCButtonBlockDemoTests;
+			productReference = 37B10EE31FA06DED0010989F /* TTCButtonBlockDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		37B10EED1FA06DED0010989F /* TTCButtonBlockDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37B10EFD1FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemoUITests" */;
+			buildPhases = (
+				37B10EEA1FA06DED0010989F /* Sources */,
+				37B10EEB1FA06DED0010989F /* Frameworks */,
+				37B10EEC1FA06DED0010989F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37B10EF01FA06DED0010989F /* PBXTargetDependency */,
+			);
+			name = TTCButtonBlockDemoUITests;
+			productName = TTCButtonBlockDemoUITests;
+			productReference = 37B10EEE1FA06DED0010989F /* TTCButtonBlockDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37B10EC31FA06DED0010989F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = TT_Cindy;
+				TargetAttributes = {
+					37B10ECA1FA06DED0010989F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					37B10EE21FA06DED0010989F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37B10ECA1FA06DED0010989F;
+					};
+					37B10EED1FA06DED0010989F = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 37B10ECA1FA06DED0010989F;
+					};
+				};
+			};
+			buildConfigurationList = 37B10EC61FA06DED0010989F /* Build configuration list for PBXProject "TTCButtonBlockDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37B10EC21FA06DED0010989F;
+			productRefGroup = 37B10ECC1FA06DED0010989F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37B10ECA1FA06DED0010989F /* TTCButtonBlockDemo */,
+				37B10EE21FA06DED0010989F /* TTCButtonBlockDemoTests */,
+				37B10EED1FA06DED0010989F /* TTCButtonBlockDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37B10EC91FA06DED0010989F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B10EDB1FA06DED0010989F /* LaunchScreen.storyboard in Resources */,
+				37B10ED81FA06DED0010989F /* Assets.xcassets in Resources */,
+				37B10ED61FA06DED0010989F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EE11FA06DED0010989F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EEC1FA06DED0010989F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37B10EC71FA06DED0010989F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B10ED31FA06DED0010989F /* ViewController.m in Sources */,
+				37B10EDE1FA06DED0010989F /* main.m in Sources */,
+				37B10ED01FA06DED0010989F /* AppDelegate.m in Sources */,
+				37B10F061FA06EDC0010989F /* UIButton+TTCBlock.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EDF1FA06DED0010989F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B10EE81FA06DED0010989F /* TTCButtonBlockDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37B10EEA1FA06DED0010989F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37B10EF31FA06DEE0010989F /* TTCButtonBlockDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37B10EE51FA06DED0010989F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B10ECA1FA06DED0010989F /* TTCButtonBlockDemo */;
+			targetProxy = 37B10EE41FA06DED0010989F /* PBXContainerItemProxy */;
+		};
+		37B10EF01FA06DED0010989F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37B10ECA1FA06DED0010989F /* TTCButtonBlockDemo */;
+			targetProxy = 37B10EEF1FA06DED0010989F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37B10ED41FA06DED0010989F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B10ED51FA06DED0010989F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37B10ED91FA06DED0010989F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37B10EDA1FA06DED0010989F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37B10EF51FA06DEE0010989F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37B10EF61FA06DEE0010989F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B10EF81FA06DEE0010989F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		37B10EF91FA06DEE0010989F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		37B10EFB1FA06DEE0010989F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCButtonBlockDemo.app/TTCButtonBlockDemo";
+			};
+			name = Debug;
+		};
+		37B10EFC1FA06DEE0010989F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TTCButtonBlockDemo.app/TTCButtonBlockDemo";
+			};
+			name = Release;
+		};
+		37B10EFE1FA06DEE0010989F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTCButtonBlockDemo;
+			};
+			name = Debug;
+		};
+		37B10EFF1FA06DEE0010989F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VHLBSWKF92;
+				INFOPLIST_FILE = TTCButtonBlockDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qq.493761458.TTCButtonBlockDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TTCButtonBlockDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37B10EC61FA06DED0010989F /* Build configuration list for PBXProject "TTCButtonBlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B10EF51FA06DEE0010989F /* Debug */,
+				37B10EF61FA06DEE0010989F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B10EF71FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B10EF81FA06DEE0010989F /* Debug */,
+				37B10EF91FA06DEE0010989F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B10EFA1FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B10EFB1FA06DEE0010989F /* Debug */,
+				37B10EFC1FA06DEE0010989F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37B10EFD1FA06DEE0010989F /* Build configuration list for PBXNativeTarget "TTCButtonBlockDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B10EFE1FA06DEE0010989F /* Debug */,
+				37B10EFF1FA06DEE0010989F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37B10EC31FA06DED0010989F /* Project object */;
+}
