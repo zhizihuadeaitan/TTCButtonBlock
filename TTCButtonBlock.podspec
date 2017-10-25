@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'TTCButtonBlock'
-  s.version      = ‘1.0.0’
+  s.version      = '1.0.0'
   s.license          = 'MIT'
   s.homepage     = 'https://github.com/zhizihuadeaitan/TTCButtonBlock'
   s.author             = { 'Cindy' => '493761458@qq.com' }
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/zhizihuadeaitan/TTCButtonBlock.git', :tag => '1.0.0' }
   s.source_files  = 'TTCButtonBlock', 'TTCButtonBlock/**/*.{h,m}'
   s.requires_arc = true
-  s.platform     = :ios, ‘9.0’
+  s.platform     = :ios, '9.0'
   s.frameworks = "UIKit"
 
 
