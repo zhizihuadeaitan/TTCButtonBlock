@@ -15,7 +15,7 @@
 		37B10EDE1FA06DED0010989F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EDD1FA06DED0010989F /* main.m */; };
 		37B10EE81FA06DED0010989F /* TTCButtonBlockDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EE71FA06DED0010989F /* TTCButtonBlockDemoTests.m */; };
 		37B10EF31FA06DEE0010989F /* TTCButtonBlockDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10EF21FA06DEE0010989F /* TTCButtonBlockDemoUITests.m */; };
-		37B10F061FA06EDC0010989F /* UIButton+TTCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */; };
+		37C8A5721FA1CF01001713D6 /* UIButton+TTCBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C8A5711FA1CF01001713D6 /* UIButton+TTCBlock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,9 +52,9 @@
 		37B10EEE1FA06DED0010989F /* TTCButtonBlockDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTCButtonBlockDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37B10EF21FA06DEE0010989F /* TTCButtonBlockDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTCButtonBlockDemoUITests.m; sourceTree = "<group>"; };
 		37B10EF41FA06DEE0010989F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		37B10F041FA06EDC0010989F /* UIButton+TTCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TTCBlock.h"; sourceTree = "<group>"; };
-		37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TTCBlock.m"; sourceTree = "<group>"; };
 		37B10F081FA06F880010989F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37C8A5701FA1CF01001713D6 /* UIButton+TTCBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+TTCBlock.h"; sourceTree = "<group>"; };
+		37C8A5711FA1CF01001713D6 /* UIButton+TTCBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+TTCBlock.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 		37B10ECD1FA06DED0010989F /* TTCButtonBlockDemo */ = {
 			isa = PBXGroup;
 			children = (
-				37B10F031FA06EDC0010989F /* TTCButtonBlock */,
+				37C8A56F1FA1CF01001713D6 /* TTCButtonBlock */,
 				37B10ECE1FA06DED0010989F /* AppDelegate.h */,
 				37B10ECF1FA06DED0010989F /* AppDelegate.m */,
 				37B10ED11FA06DED0010989F /* ViewController.h */,
@@ -138,21 +138,22 @@
 			path = TTCButtonBlockDemoUITests;
 			sourceTree = "<group>";
 		};
-		37B10F031FA06EDC0010989F /* TTCButtonBlock */ = {
-			isa = PBXGroup;
-			children = (
-				37B10F041FA06EDC0010989F /* UIButton+TTCBlock.h */,
-				37B10F051FA06EDC0010989F /* UIButton+TTCBlock.m */,
-			);
-			path = TTCButtonBlock;
-			sourceTree = "<group>";
-		};
 		37B10F071FA06F880010989F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				37B10F081FA06F880010989F /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37C8A56F1FA1CF01001713D6 /* TTCButtonBlock */ = {
+			isa = PBXGroup;
+			children = (
+				37C8A5701FA1CF01001713D6 /* UIButton+TTCBlock.h */,
+				37C8A5711FA1CF01001713D6 /* UIButton+TTCBlock.m */,
+			);
+			name = TTCButtonBlock;
+			path = ../../TTCButtonBlock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +290,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				37B10ED31FA06DED0010989F /* ViewController.m in Sources */,
+				37C8A5721FA1CF01001713D6 /* UIButton+TTCBlock.m in Sources */,
 				37B10EDE1FA06DED0010989F /* main.m in Sources */,
 				37B10ED01FA06DED0010989F /* AppDelegate.m in Sources */,
-				37B10F061FA06EDC0010989F /* UIButton+TTCBlock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
