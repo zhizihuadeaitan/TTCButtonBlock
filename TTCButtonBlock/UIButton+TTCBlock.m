@@ -35,14 +35,29 @@ static void *TTC_buttonEventsBlockKey = &TTC_buttonEventsBlockKey;
  @param controlEvents 回调block的事件
  */
 - (void)TTC_addEventHandler:(void (^)(void))block forControlEvents:(UIControlEvents)controlEvents {
+    self.enabled = NO;
     self.TTC_buttonEventsBlock = block;
     [self addTarget:self action:@selector(TTC_blcokButtonClicked) forControlEvents:controlEvents];
 }
 
 // 按钮点击
 - (void)TTC_blcokButtonClicked {
+    self.userInteractionEnabled = NO;
+    
+    [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(btnClickedOperations) object:nil];
+    
+    [self performSelector:@selector(btnClickedOperations) withObject:nil afterDelay:0.3];
+    
     !self.TTC_buttonEventsBlock ?: self.TTC_buttonEventsBlock();
 }
+- (void)btnClickedOperations {
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        NSLog(@"btnClickedOperations");
+        self.userInteractionEnabled = YES;
+    });
+}
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
