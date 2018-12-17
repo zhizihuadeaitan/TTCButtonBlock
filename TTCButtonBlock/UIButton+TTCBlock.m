@@ -45,7 +45,6 @@ static void *TTC_buttonEventsBlockKey = &TTC_buttonEventsBlockKey;
     self.userInteractionEnabled = NO;
     
     [NSObject cancelPreviousPerformRequestsWithTarget:self selector:@selector(btnClickedOperations) object:nil];
-    
     [self performSelector:@selector(btnClickedOperations) withObject:nil afterDelay:0.3];
     
     !self.TTC_buttonEventsBlock ?: self.TTC_buttonEventsBlock();
